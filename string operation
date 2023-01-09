@@ -1,0 +1,6 @@
+s=input()
+for i in s:
+    if i.isalnum() or i.isalpha() or i.isdigit() or i.islower() or i.isupper():
+        print('True')
+    else:
+        print('False')
